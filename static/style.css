@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Lily+Script+One);
+
+th,
+td {
+    padding: 8px;
+}
+th{
+    font-size: large;
+    font-family: georgia;
+    text-align: center;
+     border-bottom: 0.5px solid rgb(248, 245, 242);
+}
+td{
+    text-align: left;
+     border-bottom: 0.5px solid rgb(88, 68, 52);
+}
+tr:hover {
+    background-color: #352f26;
+}
+th:hover{
+    background-color: rgb(53, 33, 18);
+}
+table{
+    table-layout: fixed;
+    width: 65%;
+    color: rgb(255, 255, 255);
+}
+table{
+position: relative;
+background: rgba(0, 0, 0, 0.4);
+}
+.tb{
+    color: white;
+    font-size: 30px;
+}
+.tipcal{
+    font-family: 'Lily Script One';
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+.btn{
+    background-color: crimson;
+    color: white;
+    border-color: crimson;
+}
+.btn1,
+.showB{
+    background-color: crimson;
+    border-radius: 8%;
+    height: 45px;
+    border-color: crimson;
+    color: azure;
+    border-style: outset;
+    box-shadow: crimson;
+    font-family: 'georgia';
+    font-size: medium;
+    font-stretch: expanded;
+    font-weight: 300;
+    padding: 5px;
+
+}
+
+.btn:hover,
+.btn1:hover,
+.showB:hover{
+    background-color: rgb(141, 5, 32);
+    border-color: rgb(141, 5, 32);
+}
+
+input {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+  }
+
+label {
+   color: white;
+   padding: 8px;
+   font-size: 18px;
+}

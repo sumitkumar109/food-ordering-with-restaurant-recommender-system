@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Get Recommendation
+      </title>
+      <link rel="stylesheet" href="../static/style.css">
+</head>
+<body background="../static/7.jpg">
+  
+    <div style="text-align: center;">
+        <h1 style="color:white;">Get recommendation in your locality</h1>
+        <form action='/predict' method="post">
+            <label for="html" style="color:white;">Your Locality:</label>
+            <input placeholder="Ex- Connaught Place" name="locality" type="text" size="25">
+            &nbsp &nbsp &nbsp &nbsp &nbsp
+            <label for="html" style="color:white;">Restaurant:</label>
+            <input placeholder="Ex- KFC" name="title" type="text" size="25">
+            <br><br>
+            <button type="submit" class="btn1">Show Results</button>
+        </form>
+    </div>
+
+    <br>
+  
+</body>
+</html>

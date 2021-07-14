@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Get Recommendation
+    </title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body background="../static/7.jpg">
+    
+    <div style="text-align: center;">
+        <h1 style="color:white;">Get recommendation in your locality</h1>
+        <form action='/predict' method="post">
+            <label for="html" style="color:white;">Your Locality:</label>
+            <input placeholder="Ex- Connaught Place" name="locality" type="text" size="25">
+            &nbsp &nbsp &nbsp &nbsp &nbsp
+            <label for="html" style="color:white;">Restaurant:</label>
+            <input placeholder="Ex- KFC" name="title" type="text" size="25">
+            <br><br>
+            <button type="submit" class="btn1">Show Results</button>
+        </form>
+    </div>
+
+    <br>
+    <br>
+
+    <table style="width:100%">
+        <tr>
+            <th>Restaurant Name</th>
+            <th>Ratings</th>
+            <th>Cuisines</th>
+            <th>Average Cost for two</th>
+        </tr>
+        <tr>
+            <td>{{name[0]}}</td>
+            <td style="text-align:center;">{{rating[0]}}</td>
+            <td>{{cuisine[0]}}</td>
+            <td style="text-align:center;">{{cost[0]}}</td>
+        </tr>
+        <tr>
+            <td>{{name[1]}}</td>
+            <td style="text-align:center;">{{rating[1]}}</td>
+            <td>{{cuisine[1]}}</td>
+            <td style="text-align:center;">{{cost[1]}}</td>
+        </tr>
+        <tr>
+            <td>{{name[2]}}</td>
+            <td style="text-align:center;">{{rating[2]}}</td>
+            <td>{{cuisine[2]}}</td>
+            <td style="text-align:center;">{{cost[2]}}</td>
+        </tr>
+        <tr>
+            <td>{{name[3]}}</td>
+            <td style="text-align:center;">{{rating[3]}}</td>
+            <td>{{cuisine[3]}}</td>
+            <td style="text-align:center;">{{cost[3]}}</td>
+        </tr>
+        <tr>
+            <td>{{name[4]}}</td>
+            <td style="text-align:center;">{{rating[4]}}</td>
+            <td>{{cuisine[4]}}</td>
+            <td style="text-align:center;">{{cost[4]}}</td>
+        </tr>
+        <tr>
+            <td>{{name[5]}}</td>
+            <td style="text-align:center;">{{rating[5]}}</td>
+            <td>{{cuisine[5]}}</td>
+            <td style="text-align:center;">{{cost[5]}}</td>
+        </tr>
+        <tr>
+            <td>{{name[6]}}</td>
+            <td style="text-align:center;">{{rating[6]}}</td>
+            <td>{{cuisine[6]}}</td>
+            <td style="text-align:center;">{{cost[6]}}</td>
+        </tr>
+        <tr>
+            <td>{{name[7]}}</td>
+            <td style="text-align:center;">{{rating[7]}}</td>
+            <td>{{cuisine[7]}}</td>
+            <td style="text-align:center;">{{cost[7]}}</td>
+        </tr>
+        <tr>
+            <td>{{name[8]}}</td>
+            <td style="text-align:center;">{{rating[8]}}</td>
+            <td>{{cuisine[8]}}</td>
+            <td style="text-align:center;">{{cost[8]}}</td>
+        </tr>
+        <tr>
+            <td>{{name[9]}}</td>
+            <td style="text-align:center;">{{rating[9]}}</td>
+            <td>{{cuisine[9]}}</td>
+            <td style="text-align:center;">{{cost[9]}}</td>
+        </tr>
+    </table>
+</body>
+
+</html>

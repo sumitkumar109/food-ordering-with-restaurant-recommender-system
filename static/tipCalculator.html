@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="styles1.css">
+    </head>
+    <body background="g2.jpg" onclick="showBill()">
+        <h3 id="logo">Tip Calculator</h3>
+        <div class="main">
+            <div class="big">
+                <img class="img" src="cam2.png"></img>
+                <br>
+                <br>
+
+                <label for="amt">Bill Amount:</label>
+                <hr>
+                ₹ &nbsp<input type="text" class="amt" placeholder="Enter your Bill Amount">
+                <br>
+                <br>
+                <label for="rate">Rate our service:</label>
+                <hr>
+                <select class="rate">
+                    <option value="0" disabled selected>---Choose an Option---</option>
+                    <option value="0.3">Excellent</option>
+                    <option value="0.2">Satisfied</option>
+                    <option value="0.15">Fair</option>
+                    <option value="0.10">Disatisfied</option>
+                    <option value="0.05">Terrible</option>
+                </select>
+                <br>
+                <br>
+                <label for="divideBill">Split:</label>
+                <hr>
+                <input type="text" class="divideBill" placeholder="Number of Persons">
+
+                <br>
+                <br>
+                <div class="show">
+                Total Bill:&nbsp₹&nbsp<span id="totalValue">0.00</span>
+                <div class="tip">
+                Total Tip:
+                ₹&nbsp<span id="tipValue">0.00</span><br><span class="per"> per person</span></div></div>
+                <button type="button" class="btn">💳BILL</button>
+            </div>
+        </div>
+ 
+        <script src="tipCalculator.js" charset="utf-8"></script>
+    </body>
+</html>
